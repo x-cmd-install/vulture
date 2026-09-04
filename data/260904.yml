@@ -7,7 +7,7 @@ about:
   head: 2c21cb0
   archived: false
   latestVersion: v2.16
-  collectedAt: 2026-09-04T19:23:19Z
+  collectedAt: 2026-09-04T21:13:29Z
 timeline:
   created: 2017-03-06
   lastCommit: 2026-04-30
@@ -81,5 +81,48 @@ total:
   openIssue: 48
   commit: 791
 ---
+path: /home/runner/.x-repo/github.com/jendrikseipp/vulture
+collectedAt: 2026-09-04T21:13:30Z
+loc:
+  Python:
+    code: 4704
+    comments: 58
+    blanks: 864
+    files: 43
+  Toml:
+    code: 104
+    comments: 19
+    blanks: 23
+    files: 2
+  Sh:
+    code: 25
+    comments: 6
+    blanks: 11
+    files: 1
+  Ini:
+    code: 23
+    comments: 2
+    blanks: 3
+    files: 1
+  Autoconf:
+    code: 6
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 673
+    blanks: 279
+    files: 5
+  Text:
+    code: 0
+    comments: 19
+    blanks: 4
+    files: 2
+total:
+  code: 4874
+  comments: 777
+  blanks: 1185
+  files: 55
 ---
 
