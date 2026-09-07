@@ -5,13 +5,13 @@ about:
   head: 2c21cb0
   archived: false
   latestVersion: "v2.16"
-  collectedAt: 2026-09-07T05:15:52Z
+  collectedAt: 2026-09-07T19:11:22Z
 timeline:
   created: 2017-03-06
   lastCommit: 2026-04-30
   lastRelease: 2026-03-25
 popularity:
-  star: 4795
+  star: 4796
   watcher: 28
   fork: 201
   release: 22
@@ -80,7 +80,7 @@ total:
   commit: 791
 ---
 path: /home/runner/.x-repo/github.com/jendrikseipp/vulture
-collectedAt: 2026-09-07T05:15:52Z
+collectedAt: 2026-09-07T19:11:23Z
 loc:
   Python:
     code: 4704
@@ -126,7 +126,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T05:15:53+00:00
+  collectedAt: 2026-09-07T19:11:24+00:00
   platform:
     darwin/arm64:
       name:  null
