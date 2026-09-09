@@ -7,7 +7,7 @@ Find dead Python code
 - **Latest release**: `v2.16` (2026-03-25)
 - **Last commit**: 2026-04-30
 - **License**: MIT
-- **Stars**: 4801 · **Forks**: 201 · **Open issues**: 244 · **Contributors**: 42
+- **Stars**: 4802 · **Forks**: 201 · **Open issues**: 244 · **Contributors**: 42
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/vulture> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T05:19:28Z._
+_Last regenerated: 2026-09-09T19:45:30Z._
