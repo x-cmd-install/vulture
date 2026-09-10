@@ -1,0 +1,573 @@
+- repo: kali_rolling
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: homebrew
+  srcname: vulture
+  visiblename: vulture
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Find dead Python code
+- repo: arch
+  subrepo: extra
+  srcname: vulture
+  binname: vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  summary: Finds dead code in Python projects
+  licenses:
+    - MIT
+- repo: blackarch
+  srcname: vulture
+  binname: vulture
+  visiblename: vulture
+  version: 44.dae26cd
+  origversion: 44.dae26cd-1
+  status: ignored
+  summary: Modular intelligence, research, engineering, and automation platform combining RF analysis, signal processing, AI/ML, scientific computing, and more.
+  licenses:
+    - AGPL-3.0-or-later
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.3"
+  origversion: 2.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - devel
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.7"
+  origversion: 2.7-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - devel
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: debian_14
+  subrepo: forky/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: deepin_unstable
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "0.21"
+  origversion: 0.21-1.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+- repo: deepin_25
+  subrepo: community
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.3"
+  origversion: 2.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - devel
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: homebrew
+  srcname: vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: null
+  status: newest
+  summary: Find dead Python code
+- repo: macports
+  srcname: devel/vulture
+  binname: vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: null
+  status: outdated
+  summary: Find dead Python code
+  maintainers:
+    - dliessi@github
+  licenses:
+    - MIT
+  categories:
+    - devel
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: vulture
+  binname: vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  summary: Finds dead code in Python projects
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: vulture
+  binname: vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  summary: Finds dead code in Python projects
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: vulture
+  binname: vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  summary: Finds dead code in Python projects
+  licenses:
+    - MIT
+- repo: opensuse_games_tumbleweed
+  srcname: vulture
+  binnames:
+    - vulture-debuginfo
+    - vulture-debugsource
+    - vulture-data
+    - vulture-nethack
+    - vulture-slashem
+    - vulture-unnethack
+  visiblename: vulture
+  version: 2.3.67
+  origversion: 2.3.67-6.25
+  status: outdated
+  summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
+  licenses:
+    - NGPL
+  categories:
+    - Amusements/Games/RPG
+- repo: opensuse_games_tumbleweed
+  srcname: vulture
+  binnames:
+    - vulture-debuginfo
+    - vulture-debugsource
+    - vulture-data
+    - vulture-nethack
+    - vulture-slashem
+    - vulture-unnethack
+  visiblename: vulture
+  version: 2.3.67
+  origversion: 2.3.67-6.29
+  status: outdated
+  summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
+  licenses:
+    - NGPL
+  categories:
+    - Amusements/Games/RPG
+- repo: opensuse_games_tumbleweed
+  srcname: vulture
+  binnames:
+    - vulture-debuginfo
+    - vulture-debugsource
+    - vulture-data
+    - vulture-nethack
+    - vulture-slashem
+    - vulture-unnethack
+  visiblename: vulture
+  version: 2.3.67
+  origversion: 2.3.67-6.32
+  status: outdated
+  summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
+  licenses:
+    - NGPL
+  categories:
+    - Amusements/Games/RPG
+- repo: parabola
+  subrepo: extra
+  srcname: vulture
+  binname: vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  summary: Finds dead code in Python projects
+  licenses:
+    - MIT
+- repo: pardus_21
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.3"
+  origversion: 2.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - devel
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: parrot
+  subrepo: parrot/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "0.21"
+  origversion: 0.21-1.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.3"
+  origversion: 2.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - devel
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.7"
+  origversion: 2.7-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - devel
+- repo: raspbian_stable
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: raspbian_testing
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "1.3"
+  origversion: 1.3-0ubuntu1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.3"
+  origversion: 2.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: 0.8.1
+  origversion: 0.8.1-1
+  status: outdated
+  maintainers:
+    - debian@danielstender.com
+    - python-apps-team@lists.alioth.debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "0.21"
+  origversion: 0.21-1ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "1.3"
+  origversion: 1.3-0ubuntu1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.3"
+  origversion: 2.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.7"
+  origversion: 2.7-2
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1build1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - universe/misc
