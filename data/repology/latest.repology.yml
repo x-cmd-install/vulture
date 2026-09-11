@@ -1,24 +1,32 @@
-- repo: kali_rolling
+- repo: pardus_21
   subrepo: main
   srcname: vulture
   binnames:
     - vulture
   visiblename: vulture
-  version: "2.16"
-  origversion: 2.16-1
-  status: newest
+  version: "2.3"
+  origversion: 2.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - devel
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
   maintainers:
     - team+python@tracker.debian.org
     - czchen@debian.org
   categories:
     - devel
-- repo: homebrew
-  srcname: vulture
-  visiblename: vulture
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Find dead Python code
 - repo: arch
   subrepo: extra
   srcname: vulture
@@ -68,6 +76,20 @@
     - team+python@tracker.debian.org
     - czchen@debian.org
     - morph@debian.org
+  categories:
+    - devel
+- repo: parrot
+  subrepo: parrot/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
   categories:
     - devel
 - repo: debian_13
@@ -174,6 +196,27 @@
   origversion: null
   status: newest
   summary: Find dead Python code
+- repo: homebrew
+  srcname: vulture
+  visiblename: vulture
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Find dead Python code
+- repo: kali_rolling
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
 - repo: macports
   srcname: devel/vulture
   binname: vulture
@@ -232,7 +275,7 @@
     - vulture-unnethack
   visiblename: vulture
   version: 2.3.67
-  origversion: 2.3.67-6.25
+  origversion: 2.3.67-6.35
   status: outdated
   summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
   licenses:
@@ -250,25 +293,7 @@
     - vulture-unnethack
   visiblename: vulture
   version: 2.3.67
-  origversion: 2.3.67-6.29
-  status: outdated
-  summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
-  licenses:
-    - NGPL
-  categories:
-    - Amusements/Games/RPG
-- repo: opensuse_games_tumbleweed
-  srcname: vulture
-  binnames:
-    - vulture-debuginfo
-    - vulture-debugsource
-    - vulture-data
-    - vulture-nethack
-    - vulture-slashem
-    - vulture-unnethack
-  visiblename: vulture
-  version: 2.3.67
-  origversion: 2.3.67-6.32
+  origversion: 2.3.67-6.38
   status: outdated
   summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
   licenses:
@@ -286,49 +311,6 @@
   summary: Finds dead code in Python projects
   licenses:
     - MIT
-- repo: pardus_21
-  subrepo: main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.3"
-  origversion: 2.3-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-    - morph@debian.org
-  categories:
-    - devel
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.14"
-  origversion: 2.14-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - devel
-- repo: parrot
-  subrepo: parrot/main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.14"
-  origversion: 2.14-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - devel
 - repo: pureos_amber
   subrepo: amber/main
   srcname: vulture
