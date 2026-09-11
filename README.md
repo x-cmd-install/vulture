@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,806 · **Forks**: 201 · **Open issues**: 244 · **Contributors**: 42
+- **Stars**: 4,807 · **Forks**: 201 · **Open issues**: 244 · **Contributors**: 42
 
 ## Totals (cumulative)
 
@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 4 | 0 | 2 | 0 |
-| last60d | 2026-07-12 | 0 | 0 | 6 | 0 | 3 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 10 | 0 | 4 | 0 |
-| last180d | 2026-03-14 | 1 | 2 | 13 | 1 | 4 | 6 |
-| 360d | 2025-09-15 | 2 | 5 | 15 | 4 | 9 | 12 |
-| last720d | 2024-09-20 | 4 | 9 | 19 | 11 | 23 | 31 |
+| 30d | 2026-08-12 | 0 | 0 | 4 | 0 | 2 | 0 |
+| last60d | 2026-07-13 | 0 | 0 | 6 | 0 | 3 | 0 |
+| 90d | 2026-06-13 | 0 | 0 | 10 | 0 | 4 | 0 |
+| last180d | 2026-03-15 | 1 | 2 | 13 | 1 | 4 | 6 |
+| 360d | 2025-09-16 | 2 | 5 | 15 | 4 | 9 | 12 |
+| last720d | 2024-09-21 | 4 | 9 | 19 | 11 | 23 | 30 |
 
 ## Distribution status
 
-Reported by **42** distros on [repology.org](https://repology.org/project/vulture). **12** are ✅ on the latest upstream release, **28** are ⚠️ on an older version.
+Reported by **41** distros on [repology.org](https://repology.org/project/vulture). **12** are ✅ on the latest upstream release, **27** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,7 +75,7 @@ Reported by **42** distros on [repology.org](https://repology.org/project/vultur
 | Ubuntu 26.04 LTS | `2.14` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.7` | ⚠️ outdated |
 | Arch | `2.16` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `2.16` | ✅ latest |
 
 ## Improve this data
 
@@ -86,4 +86,4 @@ Install metadata for vulture lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T23:14:10Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:13:08Z._
