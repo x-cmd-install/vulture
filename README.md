@@ -14,11 +14,11 @@ x install vulture
 
 ## Code insight
 
-Total: **4,862** lines of code across **48** files in the top 5 languages.
+Total: **4,871** lines of code across **48** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 4,704 | 58 | 864 | 43 |
+| Python | 4,713 | 59 | 867 | 43 |
 | Toml | 104 | 19 | 23 | 2 |
 | Sh | 25 | 6 | 11 | 1 |
 | Ini | 23 | 2 | 3 | 1 |
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.16` (2026-03-25)
-- **Last commit**: 2026-04-30
+- **Last commit**: 2026-09-16
 
 ## Popularity
 
-- **Stars**: 4,809 · **Forks**: 201 · **Open issues**: 244 · **Contributors**: 42
+- **Stars**: 4,810 · **Forks**: 201 · **Open issues**: 244 · **Contributors**: 43
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 140 · **Open PRs**: 23 · **Closed issues**: 196 · **Open issues**: 48 · **Commits**: 791
+- **Releases**: 22 · **Merged PRs**: 141 · **Open PRs**: 22 · **Closed issues**: 196 · **Open issues**: 48 · **Commits**: 792
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 0 | 0 | 2 | 0 | 1 | 0 |
-| last60d | 2026-07-17 | 0 | 0 | 5 | 0 | 2 | 0 |
-| 90d | 2026-06-17 | 0 | 0 | 10 | 0 | 4 | 0 |
-| last180d | 2026-03-19 | 1 | 2 | 13 | 1 | 4 | 6 |
-| 360d | 2025-09-20 | 2 | 4 | 15 | 3 | 9 | 12 |
-| last720d | 2024-09-25 | 4 | 9 | 19 | 11 | 21 | 30 |
+| 30d | 2026-08-17 | 0 | 0 | 2 | 0 | 1 | 1 |
+| last60d | 2026-07-18 | 0 | 1 | 4 | 0 | 2 | 1 |
+| 90d | 2026-06-18 | 0 | 1 | 9 | 0 | 4 | 1 |
+| last180d | 2026-03-20 | 1 | 3 | 12 | 1 | 4 | 7 |
+| 360d | 2025-09-21 | 2 | 5 | 14 | 3 | 9 | 13 |
+| last720d | 2024-09-26 | 4 | 10 | 18 | 11 | 21 | 31 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for vulture lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T05:37:09Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T05:31:31Z._
