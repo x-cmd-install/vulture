@@ -14,11 +14,11 @@ x install vulture
 
 ## Code insight
 
-Total: **4,871** lines of code across **48** files in the top 5 languages.
+Total: **4,880** lines of code across **48** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 4,713 | 59 | 867 | 43 |
+| Python | 4,722 | 59 | 870 | 43 |
 | Toml | 104 | 19 | 23 | 2 |
 | Sh | 25 | 6 | 11 | 1 |
 | Ini | 23 | 2 | 3 | 1 |
@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,810 · **Forks**: 201 · **Open issues**: 244 · **Contributors**: 43
+- **Stars**: 4,813 · **Forks**: 201 · **Open issues**: 245 · **Contributors**: 43
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 141 · **Open PRs**: 22 · **Closed issues**: 196 · **Open issues**: 48 · **Commits**: 792
+- **Releases**: 22 · **Merged PRs**: 142 · **Open PRs**: 21 · **Closed issues**: 196 · **Open issues**: 49 · **Commits**: 793
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 0 | 2 | 0 | 1 | 1 |
-| last60d | 2026-07-18 | 0 | 1 | 4 | 0 | 2 | 1 |
-| 90d | 2026-06-18 | 0 | 1 | 9 | 0 | 4 | 1 |
-| last180d | 2026-03-20 | 1 | 3 | 12 | 1 | 4 | 7 |
-| 360d | 2025-09-21 | 2 | 5 | 14 | 3 | 9 | 13 |
-| last720d | 2024-09-26 | 4 | 10 | 18 | 11 | 21 | 31 |
+| 30d | 2026-08-18 | 0 | 0 | 2 | 0 | 2 | 2 |
+| last60d | 2026-07-19 | 0 | 2 | 3 | 0 | 3 | 2 |
+| 90d | 2026-06-19 | 0 | 2 | 8 | 0 | 5 | 2 |
+| last180d | 2026-03-21 | 1 | 4 | 11 | 1 | 5 | 8 |
+| 360d | 2025-09-22 | 2 | 6 | 13 | 3 | 10 | 14 |
+| last720d | 2024-09-27 | 4 | 10 | 17 | 11 | 22 | 32 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for vulture lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T05:31:31Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T05:39:03Z._
