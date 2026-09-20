@@ -4,7 +4,7 @@
 
 Find dead Python code
 
-![vulture](https://repo.x-cmd.io/vulture.svg)
+[![x-cmd/install — vulture Code Quality Monitoring Repo Card](https://repo.x-cmd.io/vulture.svg)](https://x-cmd.com/install/vulture)
 
 ## Install
 
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,812 · **Forks**: 202 · **Open issues**: 245 · **Contributors**: 43
+- **Stars**: 4,814 · **Forks**: 202 · **Open issues**: 245 · **Contributors**: 43
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 2 | 0 | 2 | 2 |
-| last60d | 2026-07-20 | 0 | 2 | 4 | 0 | 3 | 2 |
-| 90d | 2026-06-20 | 0 | 2 | 9 | 0 | 5 | 2 |
-| last180d | 2026-03-22 | 1 | 4 | 12 | 1 | 5 | 8 |
-| 360d | 2025-09-23 | 2 | 6 | 14 | 3 | 10 | 14 |
-| last720d | 2024-09-28 | 4 | 10 | 18 | 11 | 22 | 31 |
+| 30d | 2026-08-21 | 0 | 0 | 2 | 0 | 2 | 2 |
+| last60d | 2026-07-22 | 0 | 2 | 3 | 0 | 3 | 2 |
+| 90d | 2026-06-22 | 0 | 2 | 9 | 0 | 5 | 2 |
+| last180d | 2026-03-24 | 1 | 4 | 12 | 1 | 5 | 8 |
+| 360d | 2025-09-25 | 2 | 6 | 14 | 3 | 10 | 14 |
+| last720d | 2024-09-30 | 4 | 10 | 18 | 11 | 22 | 31 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for vulture lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:32:18Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:36:14Z._
