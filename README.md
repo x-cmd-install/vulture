@@ -4,7 +4,7 @@
 
 Find dead Python code
 
-[![x-cmd/install — vulture Code Quality Monitoring Repo Card](https://repo.x-cmd.io/vulture.svg)](https://x-cmd.com/install/vulture)
+[![x-cmd/install — vulture Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/vulture.svg)](https://x-cmd.com/install/vulture)
 
 ## Install
 
@@ -26,13 +26,13 @@ Total: **4,880** lines of code across **48** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3 / 10**
+Overall score: **3.3 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 8/28 approved changesets -- score normalized to 2
-- **Maintained** (0/10) — 0 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 0
+- **Maintained** (2/10) — 2 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (3/10) — Found 9/28 approved changesets -- score normalized to 3
 
 ## Source
 
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,813 · **Forks**: 202 · **Open issues**: 245 · **Contributors**: 43
+- **Stars**: 4,814 · **Forks**: 202 · **Open issues**: 245 · **Contributors**: 43
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 1 | 0 | 1 | 2 |
-| last60d | 2026-07-24 | 0 | 2 | 3 | 0 | 3 | 2 |
-| 90d | 2026-06-24 | 0 | 2 | 8 | 0 | 5 | 2 |
-| last180d | 2026-03-26 | 0 | 4 | 12 | 0 | 5 | 4 |
-| 360d | 2025-09-27 | 2 | 6 | 14 | 3 | 10 | 14 |
-| last720d | 2024-10-02 | 4 | 9 | 18 | 11 | 22 | 30 |
+| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 1 | 2 |
+| last60d | 2026-07-25 | 0 | 2 | 3 | 0 | 3 | 2 |
+| 90d | 2026-06-25 | 0 | 2 | 8 | 0 | 5 | 2 |
+| last180d | 2026-03-27 | 0 | 4 | 12 | 0 | 5 | 4 |
+| 360d | 2025-09-28 | 2 | 6 | 14 | 3 | 10 | 14 |
+| last720d | 2024-10-03 | 3 | 9 | 18 | 10 | 22 | 28 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for vulture lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:35:36Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:29:44Z._
