@@ -221,4 +221,3 @@ checks:
     details:
       - 'Warn: 0 commits out of 11 are checked with a SAST tool'
 ---
-{"id":301252877,"author":{"login":"jendrikseipp","id":213955,"node_id":"MDQ6VXNlcjIxMzk1NQ==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOBQJv7c4R9MEN","tag_name":"v2.16","target_commitish":"main","name":null,"draft":false,"immutable":false,"prerelease":false,"created_at":"2026-03-25T14:41:06Z","updated_at":"2026-03-25T14:41:13Z","published_at":"2026-03-25T14:41:13Z","assets":[],"body":"2.16 (2026-03-25)\n\n* Fix false positives for dead code after while loops (#412, #413, Jendrik Seipp).\n* Use `ty` instead of `pytype` for testing type annotations (Jendrik Seipp).\n"}
