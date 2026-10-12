@@ -46,22 +46,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,839 · **Forks**: 206 · **Open issues**: 245 · **Contributors**: 43
+- **Stars**: 4,840 · **Forks**: 206 · **Open issues**: 246 · **Contributors**: 43
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 142 · **Open PRs**: 25 · **Closed issues**: 196 · **Open issues**: 49 · **Commits**: 794
+- **Releases**: 22 · **Merged PRs**: 142 · **Open PRs**: 25 · **Closed issues**: 197 · **Open issues**: 49 · **Commits**: 794
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 0 | 0 | 3 | 0 | 1 | 1 |
-| last60d | 2026-08-12 | 0 | 2 | 5 | 0 | 3 | 3 |
-| 90d | 2026-07-13 | 0 | 2 | 8 | 0 | 4 | 3 |
-| last180d | 2026-04-14 | 0 | 4 | 15 | 0 | 5 | 5 |
-| 360d | 2025-10-16 | 2 | 6 | 15 | 3 | 9 | 14 |
-| last720d | 2024-10-21 | 3 | 9 | 20 | 10 | 20 | 26 |
+| 30d | 2026-09-12 | 0 | 0 | 3 | 1 | 1 | 1 |
+| last60d | 2026-08-13 | 0 | 2 | 5 | 1 | 3 | 3 |
+| 90d | 2026-07-14 | 0 | 2 | 8 | 1 | 4 | 3 |
+| last180d | 2026-04-15 | 0 | 4 | 15 | 1 | 5 | 5 |
+| 360d | 2025-10-17 | 2 | 5 | 15 | 4 | 9 | 14 |
+| last720d | 2024-10-22 | 3 | 9 | 20 | 11 | 20 | 26 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for vulture lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T06:15:43Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T06:34:42Z._
