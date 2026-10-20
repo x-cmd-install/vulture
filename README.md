@@ -30,9 +30,9 @@ Overall score: **3.5 / 10**
 
 Lowest-scoring checks:
 
+- **Maintained** (4/10) — 4 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 4
 - **Code-Review** (3/10) — Found 9/27 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Maintained** (4/10) — 4 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 4
 
 ## Source
 
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,853 · **Forks**: 208 · **Open issues**: 246 · **Contributors**: 43
+- **Stars**: 4,854 · **Forks**: 208 · **Open issues**: 246 · **Contributors**: 43
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 0 | 1 | 5 | 1 | 0 | 2 |
-| last60d | 2026-08-20 | 0 | 1 | 7 | 1 | 2 | 4 |
-| 90d | 2026-07-21 | 0 | 3 | 8 | 1 | 3 | 4 |
-| last180d | 2026-04-22 | 0 | 4 | 17 | 1 | 5 | 5 |
-| 360d | 2025-10-24 | 2 | 6 | 17 | 4 | 9 | 15 |
-| last720d | 2024-10-29 | 3 | 10 | 22 | 11 | 20 | 27 |
+| 30d | 2026-09-20 | 0 | 1 | 5 | 1 | 0 | 2 |
+| last60d | 2026-08-21 | 0 | 1 | 7 | 1 | 2 | 4 |
+| 90d | 2026-07-22 | 0 | 3 | 8 | 1 | 3 | 4 |
+| last180d | 2026-04-23 | 0 | 4 | 17 | 1 | 5 | 5 |
+| 360d | 2025-10-25 | 2 | 6 | 17 | 4 | 9 | 15 |
+| last720d | 2024-10-30 | 3 | 10 | 22 | 11 | 20 | 27 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for vulture lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:03:01Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T05:18:30Z._

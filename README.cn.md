@@ -30,9 +30,9 @@ x install vulture
 
 评分最低的几项:
 
+- **Maintained** (4/10) — 4 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 4
 - **Code-Review** (3/10) — Found 9/27 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Maintained** (4/10) — 4 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 4
 
 ## 源代码
 
@@ -46,7 +46,7 @@ x install vulture
 
 ## 流行度
 
-- **Star**: 4,853 · **Fork**: 208 · **开放 issue**: 246 · **贡献者**: 43
+- **Star**: 4,854 · **Fork**: 208 · **开放 issue**: 246 · **贡献者**: 43
 
 ## 累计统计
 
@@ -56,12 +56,12 @@ x install vulture
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 0 | 1 | 5 | 1 | 0 | 2 |
-| last60d | 2026-08-20 | 0 | 1 | 7 | 1 | 2 | 4 |
-| 90d | 2026-07-21 | 0 | 3 | 8 | 1 | 3 | 4 |
-| last180d | 2026-04-22 | 0 | 4 | 17 | 1 | 5 | 5 |
-| 360d | 2025-10-24 | 2 | 6 | 17 | 4 | 9 | 15 |
-| last720d | 2024-10-29 | 3 | 10 | 22 | 11 | 20 | 27 |
+| 30d | 2026-09-20 | 0 | 1 | 5 | 1 | 0 | 2 |
+| last60d | 2026-08-21 | 0 | 1 | 7 | 1 | 2 | 4 |
+| 90d | 2026-07-22 | 0 | 3 | 8 | 1 | 3 | 4 |
+| last180d | 2026-04-23 | 0 | 4 | 17 | 1 | 5 | 5 |
+| 360d | 2025-10-25 | 2 | 6 | 17 | 4 | 9 | 15 |
+| last720d | 2024-10-30 | 3 | 10 | 22 | 11 | 20 | 27 |
 
 ## 改进这些数据
 
@@ -72,4 +72,4 @@ vulture 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261019.yml` · 2026-10-19T05:03:02Z._
+_数据快照: `data/card/261020.yml` · 2026-10-20T05:18:31Z._
