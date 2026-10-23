@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,856 · **Forks**: 208 · **Open issues**: 246 · **Contributors**: 43
+- **Stars**: 4,857 · **Forks**: 208 · **Open issues**: 246 · **Contributors**: 43
 
 ## Totals (cumulative)
 
@@ -56,12 +56,26 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 1 | 5 | 1 | 0 | 2 |
-| last60d | 2026-08-23 | 0 | 1 | 6 | 1 | 1 | 4 |
-| 90d | 2026-07-24 | 0 | 3 | 8 | 1 | 3 | 4 |
-| last180d | 2026-04-25 | 0 | 4 | 17 | 1 | 5 | 5 |
-| 360d | 2025-10-27 | 2 | 6 | 17 | 4 | 9 | 15 |
-| last720d | 2024-11-01 | 3 | 10 | 22 | 11 | 20 | 27 |
+| 30d | 2026-09-23 | 0 | 1 | 5 | 1 | 0 | 2 |
+| last60d | 2026-08-24 | 0 | 1 | 5 | 1 | 1 | 4 |
+| 90d | 2026-07-25 | 0 | 3 | 8 | 1 | 3 | 4 |
+| last180d | 2026-04-26 | 0 | 4 | 17 | 1 | 5 | 5 |
+| 360d | 2025-10-28 | 2 | 6 | 17 | 4 | 9 | 15 |
+| last720d | 2024-11-02 | 3 | 10 | 22 | 11 | 20 | 27 |
+
+## Distribution status
+
+Reported by **38** distros on [repology.org](https://repology.org/project/vulture). **12** are ✅ on the latest upstream release, **25** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2.16` | ✅ latest |
+| Debian 14 | `2.16` | ✅ latest |
+| Debian 13 | `2.14` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.14` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.7` | ⚠️ outdated |
+| Arch | `2.16` | ✅ latest |
+| Homebrew | `2.16` | ✅ latest |
 
 ## Improve this data
 
@@ -72,4 +86,4 @@ Install metadata for vulture lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:08:56Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:16:41Z._
