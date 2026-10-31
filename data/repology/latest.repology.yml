@@ -1,3 +1,60 @@
+- repo: raspbian_stable
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: raspbian_testing
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.3"
+  origversion: 2.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - devel
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
 - repo: pureos_amber
   subrepo: amber/main
   srcname: vulture
@@ -12,8 +69,37 @@
     - czchen@debian.org
   categories:
     - devel
-- repo: parrot
-  subrepo: parrot-updates/main
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.3"
+  origversion: 2.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - devel
+- repo: deepin_25
+  subrepo: community
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: vulture
   binnames:
     - vulture
@@ -81,18 +167,19 @@
     - czchen@debian.org
   categories:
     - devel
-- repo: parrot
-  subrepo: parrot/main
+- repo: raspbian_oldstable
+  subrepo: main
   srcname: vulture
   binnames:
     - vulture
   visiblename: vulture
-  version: "2.14"
-  origversion: 2.14-1
+  version: "2.7"
+  origversion: 2.7-1
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
     - czchen@debian.org
+    - morph@debian.org
   categories:
     - devel
 - repo: debian_14
@@ -135,49 +222,6 @@
   maintainers:
     - python-apps-team@lists.alioth.debian.org
     - czchen@debian.org
-- repo: deepin_25
-  subrepo: community
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.14"
-  origversion: 2.14-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - devel
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.3"
-  origversion: 2.3-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-    - morph@debian.org
-  categories:
-    - devel
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.16"
-  origversion: 2.16-1
-  status: newest
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - devel
 - repo: gentoo_ovl_pentoo
   srcname: net-wireless/vulture
   visiblename: net-wireless/vulture
@@ -274,25 +318,7 @@
     - vulture-unnethack
   visiblename: vulture
   version: 2.3.67
-  origversion: 2.3.67-6.91
-  status: outdated
-  summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
-  licenses:
-    - NGPL
-  categories:
-    - Amusements/Games/RPG
-- repo: opensuse_games_tumbleweed
-  srcname: vulture
-  binnames:
-    - vulture-debuginfo
-    - vulture-debugsource
-    - vulture-data
-    - vulture-nethack
-    - vulture-slashem
-    - vulture-unnethack
-  visiblename: vulture
-  version: 2.3.67
-  origversion: 2.3.67-6.92
+  origversion: 2.3.67-6.101
   status: outdated
   summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
   licenses:
@@ -325,23 +351,8 @@
     - morph@debian.org
   categories:
     - devel
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.3"
-  origversion: 2.3-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-    - morph@debian.org
-  categories:
-    - devel
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: vulture
   binnames:
     - vulture
@@ -354,23 +365,8 @@
     - czchen@debian.org
   categories:
     - devel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.7"
-  origversion: 2.7-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-    - morph@debian.org
-  categories:
-    - devel
-- repo: raspbian_stable
-  subrepo: main
+- repo: parrot
+  subrepo: parrot/main
   srcname: vulture
   binnames:
     - vulture
@@ -378,20 +374,6 @@
   version: "2.14"
   origversion: 2.14-1
   status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - devel
-- repo: raspbian_testing
-  subrepo: main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.16"
-  origversion: 2.16-1
-  status: newest
   maintainers:
     - team+python@tracker.debian.org
     - czchen@debian.org
