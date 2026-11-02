@@ -1,33 +1,5 @@
-- repo: raspbian_stable
+- repo: pardus_21
   subrepo: main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.14"
-  origversion: 2.14-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - devel
-- repo: raspbian_testing
-  subrepo: main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.16"
-  origversion: 2.16-1
-  status: newest
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - devel
-- repo: devuan_4_0
-  subrepo: chimaera/main
   srcname: vulture
   binnames:
     - vulture
@@ -41,77 +13,71 @@
     - morph@debian.org
   categories:
     - devel
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: vulture
   binnames:
     - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: vulture
+  binname: vulture
+  visiblename: vulture
+  version: 2.9.1
+  origversion: 2.9.1-1
+  status: outdated
+  summary: Finds dead code in Python projects
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: vulture
+  binname: vulture
   visiblename: vulture
   version: "2.16"
   origversion: 2.16-1
   status: newest
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - devel
-- repo: pureos_amber
-  subrepo: amber/main
+  summary: Finds dead code in Python projects
+  licenses:
+    - MIT
+- repo: opensuse_games_tumbleweed
   srcname: vulture
   binnames:
-    - vulture
+    - vulture-debuginfo
+    - vulture-debugsource
+    - vulture-data
+    - vulture-nethack
+    - vulture-slashem
+    - vulture-unnethack
   visiblename: vulture
-  version: "0.21"
-  origversion: 0.21-1.1
+  version: 2.3.67
+  origversion: 2.3.67-6.101
   status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - czchen@debian.org
+  summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
+  licenses:
+    - NGPL
   categories:
-    - devel
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+    - Amusements/Games/RPG
+- repo: parabola
+  subrepo: extra
   srcname: vulture
-  binnames:
-    - vulture
+  binname: vulture
   visiblename: vulture
-  version: "2.3"
-  origversion: 2.3-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-    - morph@debian.org
-  categories:
-    - devel
-- repo: deepin_25
-  subrepo: community
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.14"
-  origversion: 2.14-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - devel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.14"
-  origversion: 2.14-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - devel
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  summary: Finds dead code in Python projects
+  licenses:
+    - MIT
 - repo: arch
   subrepo: extra
   srcname: vulture
@@ -167,21 +133,6 @@
     - czchen@debian.org
   categories:
     - devel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.7"
-  origversion: 2.7-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-    - morph@debian.org
-  categories:
-    - devel
 - repo: debian_14
   subrepo: forky/main
   srcname: vulture
@@ -222,6 +173,49 @@
   maintainers:
     - python-apps-team@lists.alioth.debian.org
     - czchen@debian.org
+- repo: deepin_25
+  subrepo: community
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.3"
+  origversion: 2.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - devel
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
 - repo: gentoo_ovl_pentoo
   srcname: net-wireless/vulture
   visiblename: net-wireless/vulture
@@ -279,65 +273,42 @@
   srcname: vulture
   binname: vulture
   visiblename: vulture
-  version: "2.16"
-  origversion: 2.16-1
-  status: newest
+  version: "2.8"
+  origversion: 2.8-1
+  status: outdated
   summary: Finds dead code in Python projects
   licenses:
     - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: vulture
-  binname: vulture
-  visiblename: vulture
-  version: "2.16"
-  origversion: 2.16-1
-  status: newest
-  summary: Finds dead code in Python projects
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: vulture
-  binname: vulture
-  visiblename: vulture
-  version: "2.16"
-  origversion: 2.16-1
-  status: newest
-  summary: Finds dead code in Python projects
-  licenses:
-    - MIT
-- repo: opensuse_games_tumbleweed
+- repo: parrot
+  subrepo: parrot/main
   srcname: vulture
   binnames:
-    - vulture-debuginfo
-    - vulture-debugsource
-    - vulture-data
-    - vulture-nethack
-    - vulture-slashem
-    - vulture-unnethack
+    - vulture
   visiblename: vulture
-  version: 2.3.67
-  origversion: 2.3.67-6.101
+  version: "2.14"
+  origversion: 2.14-1
   status: outdated
-  summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
-  licenses:
-    - NGPL
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
   categories:
-    - Amusements/Games/RPG
-- repo: parabola
-  subrepo: extra
+    - devel
+- repo: pureos_amber
+  subrepo: amber/main
   srcname: vulture
-  binname: vulture
+  binnames:
+    - vulture
   visiblename: vulture
-  version: "2.16"
-  origversion: 2.16-1
-  status: newest
-  summary: Finds dead code in Python projects
-  licenses:
-    - MIT
-- repo: pardus_21
-  subrepo: main
+  version: "0.21"
+  origversion: 0.21-1.1
+  status: outdated
+  maintainers:
+    - python-apps-team@lists.alioth.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: pureos_byzantium
+  subrepo: byzantium/main
   srcname: vulture
   binnames:
     - vulture
@@ -351,8 +322,8 @@
     - morph@debian.org
   categories:
     - devel
-- repo: parrot
-  subrepo: parrot-updates/main
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: vulture
   binnames:
     - vulture
@@ -365,8 +336,23 @@
     - czchen@debian.org
   categories:
     - devel
-- repo: parrot
-  subrepo: parrot/main
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.7"
+  origversion: 2.7-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - devel
+- repo: raspbian_stable
+  subrepo: main
   srcname: vulture
   binnames:
     - vulture
@@ -374,6 +360,20 @@
   version: "2.14"
   origversion: 2.14-1
   status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: raspbian_testing
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
   maintainers:
     - team+python@tracker.debian.org
     - czchen@debian.org
