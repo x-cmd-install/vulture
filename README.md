@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 4,885 · **Forks**: 211 · **Open issues**: 246 · **Contributors**: 43
+- **Stars**: 4,887 · **Forks**: 211 · **Open issues**: 246 · **Contributors**: 43
 
 ## Totals (cumulative)
 
@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 0 | 0 | 4 | 0 | 0 | 0 |
-| last60d | 2026-09-14 | 0 | 1 | 8 | 1 | 1 | 4 |
-| 90d | 2026-08-15 | 0 | 1 | 10 | 1 | 2 | 4 |
-| last180d | 2026-05-17 | 0 | 3 | 18 | 1 | 5 | 4 |
-| 360d | 2025-11-18 | 2 | 6 | 20 | 4 | 8 | 15 |
-| last720d | 2024-11-23 | 3 | 10 | 25 | 11 | 19 | 27 |
+| 30d | 2026-10-15 | 0 | 0 | 4 | 0 | 0 | 0 |
+| last60d | 2026-09-15 | 0 | 1 | 8 | 1 | 1 | 4 |
+| 90d | 2026-08-16 | 0 | 1 | 10 | 1 | 2 | 4 |
+| last180d | 2026-05-18 | 0 | 3 | 18 | 1 | 5 | 4 |
+| 360d | 2025-11-19 | 2 | 6 | 20 | 4 | 8 | 15 |
+| last720d | 2024-11-24 | 3 | 10 | 25 | 11 | 19 | 27 |
 
 ## Distribution status
 
-Reported by **40** distros on [repology.org](https://repology.org/project/vulture). **13** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
+Reported by **39** distros on [repology.org](https://repology.org/project/vulture). **13** are ✅ on the latest upstream release, **25** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for vulture lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T07:23:44Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T07:06:32Z._
