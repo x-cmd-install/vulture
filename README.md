@@ -14,11 +14,11 @@ x install vulture
 
 ## Code insight
 
-Total: **4,880** lines of code across **48** files in the top 5 languages.
+Total: **4,888** lines of code across **48** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 4,722 | 59 | 870 | 43 |
+| Python | 4,730 | 59 | 873 | 43 |
 | Toml | 104 | 19 | 23 | 2 |
 | Sh | 25 | 6 | 11 | 1 |
 | Ini | 23 | 2 | 3 | 1 |
@@ -26,13 +26,13 @@ Total: **4,880** lines of code across **48** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.5 / 10**
+Overall score: **3.6 / 10**
 
 Lowest-scoring checks:
 
 - **Code-Review** (3/10) — Found 9/27 approved changesets -- score normalized to 3
-- **Maintained** (4/10) — 4 commit(s) and 1 issue activity found in the last 90 days -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.16` (2026-03-25)
-- **Last commit**: 2026-10-12
+- **Last commit**: 2026-11-16
 
 ## Popularity
 
-- **Stars**: 4,935 · **Forks**: 217 · **Open issues**: 246 · **Contributors**: 43
+- **Stars**: 4,964 · **Forks**: 218 · **Open issues**: 246 · **Contributors**: 44
 
 ## Totals (cumulative)
 
-- **Releases**: 22 · **Merged PRs**: 143 · **Open PRs**: 30 · **Closed issues**: 197 · **Open issues**: 49 · **Commits**: 795
+- **Releases**: 22 · **Merged PRs**: 144 · **Open PRs**: 29 · **Closed issues**: 197 · **Open issues**: 49 · **Commits**: 796
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-09-17 | 0 | 1 | 8 | 1 | 0 | 2 |
-| 90d | 2026-08-18 | 0 | 1 | 10 | 1 | 2 | 4 |
-| last180d | 2026-05-20 | 0 | 3 | 18 | 1 | 5 | 4 |
-| 360d | 2025-11-21 | 2 | 6 | 20 | 4 | 8 | 14 |
-| last720d | 2024-11-26 | 3 | 10 | 25 | 11 | 18 | 24 |
+| 30d | 2026-10-18 | 0 | 1 | 2 | 0 | 0 | 1 |
+| last60d | 2026-09-18 | 0 | 2 | 7 | 1 | 0 | 3 |
+| 90d | 2026-08-19 | 0 | 2 | 9 | 1 | 2 | 5 |
+| last180d | 2026-05-21 | 0 | 4 | 16 | 1 | 5 | 5 |
+| 360d | 2025-11-22 | 2 | 7 | 19 | 4 | 8 | 15 |
+| last720d | 2024-11-27 | 3 | 11 | 24 | 11 | 18 | 25 |
 
 ## Distribution status
 
@@ -86,4 +86,4 @@ Install metadata for vulture lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T07:21:08Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:46:46Z._
