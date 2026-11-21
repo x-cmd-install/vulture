@@ -1,3 +1,46 @@
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: 2.16-1
+  status: newest
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.7"
+  origversion: 2.7-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+    - morph@debian.org
+  categories:
+    - devel
+- repo: raspbian_stable
+  subrepo: main
+  srcname: vulture
+  binnames:
+    - vulture
+  visiblename: vulture
+  version: "2.14"
+  origversion: 2.14-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - czchen@debian.org
+  categories:
+    - devel
 - repo: raspbian_testing
   subrepo: main
   srcname: vulture
@@ -12,13 +55,6 @@
     - czchen@debian.org
   categories:
     - devel
-- repo: homebrew
-  srcname: vulture
-  visiblename: vulture
-  version: "2.16"
-  origversion: null
-  status: newest
-  summary: Find dead Python code
 - repo: arch
   subrepo: extra
   srcname: vulture
@@ -102,18 +138,6 @@
     - czchen@debian.org
   categories:
     - devel
-- repo: deepin_unstable
-  subrepo: main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "0.21"
-  origversion: 0.21-1.1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - czchen@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: vulture
@@ -143,20 +167,6 @@
     - morph@debian.org
   categories:
     - devel
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.16"
-  origversion: 2.16-1
-  status: newest
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - devel
 - repo: gentoo_ovl_pentoo
   srcname: net-wireless/vulture
   visiblename: net-wireless/vulture
@@ -167,6 +177,13 @@
     - blshkv@gmail.com
   categories:
     - net-wireless
+- repo: homebrew
+  srcname: vulture
+  visiblename: vulture
+  version: "2.16"
+  origversion: null
+  status: newest
+  summary: Find dead Python code
 - repo: homebrew
   srcname: vulture
   visiblename: vulture
@@ -247,6 +264,42 @@
   visiblename: vulture
   version: 2.3.67
   origversion: 2.3.67-6.118
+  status: outdated
+  summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
+  licenses:
+    - NGPL
+  categories:
+    - Amusements/Games/RPG
+- repo: opensuse_games_tumbleweed
+  srcname: vulture
+  binnames:
+    - vulture-debuginfo
+    - vulture-debugsource
+    - vulture-data
+    - vulture-nethack
+    - vulture-slashem
+    - vulture-unnethack
+  visiblename: vulture
+  version: 2.3.67
+  origversion: 2.3.67-6.122
+  status: outdated
+  summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
+  licenses:
+    - NGPL
+  categories:
+    - Amusements/Games/RPG
+- repo: opensuse_games_tumbleweed
+  srcname: vulture
+  binnames:
+    - vulture-debuginfo
+    - vulture-debugsource
+    - vulture-data
+    - vulture-nethack
+    - vulture-slashem
+    - vulture-unnethack
+  visiblename: vulture
+  version: 2.3.67
+  origversion: 2.3.67-6.123
   status: outdated
   summary: Isometric graphical interface for NetHack, Slash'EM and UnNetHack
   licenses:
@@ -338,35 +391,6 @@
     - devel
 - repo: pureos_landing
   subrepo: landing/main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.14"
-  origversion: 2.14-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-  categories:
-    - devel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: vulture
-  binnames:
-    - vulture
-  visiblename: vulture
-  version: "2.7"
-  origversion: 2.7-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - czchen@debian.org
-    - morph@debian.org
-  categories:
-    - devel
-- repo: raspbian_stable
-  subrepo: main
   srcname: vulture
   binnames:
     - vulture
