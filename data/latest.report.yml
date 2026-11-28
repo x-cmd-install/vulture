@@ -2,94 +2,94 @@ about:
   description: "Find dead Python code"
   license: MIT
   homepage: 
-  head: 445de2c
+  head: 5a68d46
   archived: false
   latestVersion: "v2.16"
   latestRelease: "v2.16"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T08:57:37Z
+  collectedAt: 2026-11-28T08:49:39Z
 timeline:
   created: 2017-03-06
-  lastCommit: 2026-11-16
+  lastCommit: 2026-11-28
   lastVersion: 2026-03-25
   lastRelease: 2026-03-25
   lastPrerelease: 
 popularity:
-  star: 5007
+  star: 5012
   watcher: 24
   fork: 226
   release: 22
-  contributor: 44
+  contributor: 45
   pullRequest: 205
   issue: 246
 language:
-  Python: 125370
+  Python: 126336
   Shell: 874
-totalBytes: 126244
+totalBytes: 127210
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
-    mergedPR: 1
-    openPR: 9
+    mergedPR: 2
+    openPR: 8
     closedIssue: 0
     openIssue: 0
-    commit: 1
+    commit: 2
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
-    mergedPR: 2
-    openPR: 14
+    mergedPR: 3
+    openPR: 13
     closedIssue: 1
     openIssue: 0
-    commit: 2
+    commit: 3
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
-    mergedPR: 2
-    openPR: 14
+    mergedPR: 3
+    openPR: 13
     closedIssue: 1
     openIssue: 1
-    commit: 5
+    commit: 6
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
-    mergedPR: 4
-    openPR: 23
+    mergedPR: 5
+    openPR: 22
     closedIssue: 1
     openIssue: 5
-    commit: 5
+    commit: 6
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 2
-    mergedPR: 6
-    openPR: 26
+    mergedPR: 7
+    openPR: 25
     closedIssue: 4
     openIssue: 7
-    commit: 15
+    commit: 16
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 3
-    mergedPR: 10
-    openPR: 31
+    mergedPR: 11
+    openPR: 30
     closedIssue: 11
     openIssue: 18
-    commit: 25
+    commit: 26
 total:
   release: 22
-  mergedPR: 144
-  openPR: 36
+  mergedPR: 145
+  openPR: 35
   closedIssue: 197
   openIssue: 49
-  commit: 796
+  commit: 797
 ---
 path: /home/runner/.x-repo/github.com/jendrikseipp/vulture
-collectedAt: 2026-11-27T08:57:38Z
+collectedAt: 2026-11-28T08:49:40Z
 loc:
   Python:
-    code: 4730
-    comments: 59
-    blanks: 873
+    code: 4755
+    comments: 61
+    blanks: 876
     files: 43
   Toml:
     code: 104
@@ -113,7 +113,7 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 676
+    comments: 677
     blanks: 279
     files: 5
   Text:
@@ -122,9 +122,9 @@ loc:
     blanks: 4
     files: 2
 total:
-  code: 4900
-  comments: 781
-  blanks: 1194
+  code: 4925
+  comments: 784
+  blanks: 1197
   files: 55
 ---
 date: "2026-11-16"
